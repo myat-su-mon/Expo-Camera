@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "Hel-099",
-    "slug": "Hel-099",
+    "name": "Item Collection App",
+    "description": "This app is sponsored by yoon han thar private limited only training",
+    "slug": "Hellen-099-Alex-Version",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,6 +22,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.yoonhanthar.entryappsample",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +30,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    }, 
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
   }
 }
